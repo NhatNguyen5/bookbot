@@ -18,7 +18,7 @@ def display(book_loc, num_words, char_pairs):
         f"Found {num_words} total words\n" \
         "--------- Character Count -------")
     for pair in char_pairs:
-        print(f"{pair["char"]}: {pair["num"]}\n")
+        print(f"{pair['char']}: {pair['num']}")
     print("============= END ===============")
 
 try:
